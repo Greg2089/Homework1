@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:background="#00FF7F"
         android:text="Hello World!"
-        android:textSize="45sp" />
+        android:textSize="25sp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="I like it!"
         android:textColor="#DAA525"
-        android:textSize="36sp"
+        android:textSize="10sp"
         android:textStyle="italic" />
 
     <Button
@@ -45,6 +45,9 @@
         android:layout_height="wrap_content"
         android:textOff="off"
         android:textOn="on" />
+    <CalendarView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>
